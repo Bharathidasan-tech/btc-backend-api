@@ -22,7 +22,7 @@ HTTP Method: POST
 
 
 # 2) Store Record Input example:
-API URL for GET : http://localhost:8080/api/btc/wallets?startDatetime=2019-10-05T13:15:05+00:00&endDatetime=2022-10-05T20:15:05+00:00
+API URL for GET : http://localhost:8080/api/btc/wallets?startDatetime=2019-10-05T13:15:05+00:00&endDatetime=2022-10-05T20:15:05+00:00 <br>
 HTTP Method: GET
 # OUTPUT:
     Status: 200 OK
@@ -44,6 +44,11 @@ HTTP Method: GET
         "2022-01-01T01:30:05.000+00:00"
     ]
 ]
+
+## H2 in-memory Database:
+To Check Data, use the below H2 URL: 
+
+    http://localhost:8080/h2-console/
 
 ## Environment:
 - Java version: 1.8
